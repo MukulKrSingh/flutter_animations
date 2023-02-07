@@ -2,6 +2,8 @@
 
 A new Flutter Animation project.
 
+Flutter animations project
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
