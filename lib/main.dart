@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'dart:math' show pi;
 
+import 'package:flutter_animations/animations/animation_1/animations_one.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData.dark(),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const AnimationOne() // const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
